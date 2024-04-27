@@ -1,0 +1,30 @@
+.icon-mobile-nav {
+  height: 3.8rem;
+  width: 3.8rem;
+  color: var(--color-grey-750);
+}
+
+@media (max-width: 49em) {
+  .nav-open .mobile-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+}
+
+@media (max-width: 27em) {
+  .icon-mobile-nav {
+    height: 3.5rem;
+    width: 3.5rem;
+    color: var(--color-grey-750);
+  }
+}
+
+@media (max-width: 24em) {
+  .icon-mobile-nav {
+    height: 3rem;
+    width: 3rem;
+    color: var(--color-grey-750);
+  }
+}

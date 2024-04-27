@@ -1,0 +1,22 @@
+.icon-sidebar-nav {
+  height: 4rem;
+  width: 4rem;
+  color: var(--color-grey-750);
+}
+
+@media (max-width: 65rem) {
+  .sidebar-open .sidebar-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+    overflow-y: scroll;
+  }
+}
+
+@media (max-width: 27rem) {
+  .icon-sidebar-nav {
+    height: 3rem;
+    width: 3rem;
+  }
+}

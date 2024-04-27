@@ -1,0 +1,11 @@
+v1
+- Idea is to add active class to header links
+v2
+- Form validation
+- When hovered on ProviderItem link inside it also should get certain css
+- Create Filter Feature for Project and Mini Projects
+- Try to implement a backend to get data from
+- Implement a new project details page.
+- Implement a functionality to pin projects on top 
+
+Difficulties faced:
