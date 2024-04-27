@@ -62,7 +62,7 @@ function WorkLayout() {
   useEffect(function () {
     setTimeout(
       () => document.getElementById("root").classList.remove("sticky"),
-      0
+      5
     );
   }, []);
 
