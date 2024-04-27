@@ -97,33 +97,33 @@ const HeadingBox = styled.div`
 `;
 
 function HomeLayout() {
-  useEffect(function () {
-    const sectionHomeEl = document.querySelector(".section-home");
+  // useEffect(function () {
+  //   const sectionHomeEl = document.querySelector(".section-home");
 
-    if (!sectionHomeEl) {
-      document.getElementById("root").classList.remove("sticky");
-      return;
-    }
+  //   if (!sectionHomeEl) {
+  //     document.getElementById("root").classList.remove("sticky");
+  //     return;
+  //   }
 
-    const obs = new IntersectionObserver(
-      function (entries) {
-        const ent = entries[0];
+  //   const obs = new IntersectionObserver(
+  //     function (entries) {
+  //       const ent = entries[0];
 
-        if (!ent.isIntersecting) {
-          document.getElementById("root").classList.add("sticky");
-        }
+  //       if (!ent.isIntersecting) {
+  //         document.getElementById("root").classList.add("sticky");
+  //       }
 
-        if (ent.isIntersecting)
-          document.getElementById("root").classList.remove("sticky");
-      },
-      {
-        root: null,
-        threshold: 0,
-        rootMargin: "-80px",
-      }
-    );
-    obs.observe(sectionHomeEl);
-  }, []);
+  //       if (ent.isIntersecting)
+  //         document.getElementById("root").classList.remove("sticky");
+  //     },
+  //     {
+  //       root: null,
+  //       threshold: 0,
+  //       rootMargin: "-80px",
+  //     }
+  //   );
+  //   obs.observe(sectionHomeEl);
+  // }, []);
 
   return (
     <>

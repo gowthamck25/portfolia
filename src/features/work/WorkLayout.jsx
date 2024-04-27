@@ -42,7 +42,7 @@ const MainDiv = styled.div`
   overflow-y: scroll;
 
   @media (max-width: 65rem) {
-    padding: 1.2rem;
+    padding: 2.4rem;
   }
 `;
 
@@ -59,12 +59,12 @@ const OpenWindowContext = createContext();
 function WorkLayout() {
   const [isOpen, setIsOpen] = useState(false);
 
-  useEffect(function () {
-    setTimeout(
-      () => document.getElementById("root").classList.remove("sticky"),
-      5
-    );
-  }, []);
+  // useEffect(function () {
+  //   setTimeout(
+  //     () => document.getElementById("root").classList.remove("sticky"),
+  //     5
+  //   );
+  // }, []);
 
   return (
     <>
@@ -94,6 +94,7 @@ function WorkLayout() {
               <MovableSideBar />
             </SlidingWindow.Window>
           </SlidingWindow>
+
           <MainDiv>
             <Container>
               <Outlet />

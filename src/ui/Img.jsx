@@ -50,14 +50,14 @@ const types = {
     height: 16rem;
 
     @media (max-width: 65em) {
-      height: 25rem;
+      height: 22rem;
     }
 
     @media (max-width: 27em) {
-      height: 18rem;
+      height: 16rem;
     }
 
-    @media (max-width: 20em) {
+    @media (max-width: 24em) {
       height: 14rem;
     }
   `,
