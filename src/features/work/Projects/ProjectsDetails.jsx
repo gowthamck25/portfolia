@@ -75,6 +75,14 @@ function ProjectsDetails() {
                   and <Strong>Supabase</Strong>
                   are incorporated to enhance functionality and user experience.
                 </ListItem>
+                <ListItem>
+                  <NavLinkURL
+                    target="_blank"
+                    to="https://github.com/gowthamck25/the-wild-oasis"
+                  >
+                    Click here view in Github
+                  </NavLinkURL>
+                </ListItem>
               </StyledList>
             </ContentDiv>
           </ProviderItem>
