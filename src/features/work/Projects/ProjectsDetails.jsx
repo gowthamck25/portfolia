@@ -20,6 +20,68 @@ function ProjectsDetails() {
         <NavLinkProviderBox
           id="provider"
           target="_blank"
+          to="https://github.com/gowthamck25/the-wild-oasis"
+        >
+          <ProviderItem>
+            <Img
+              src="/projects/wild-oasis.gif"
+              alt="Wild Oasis Demo"
+              type="project"
+            />
+            <ContentDiv>
+              <div>
+                <Subheading>Wild Oasis</Subheading>
+                <Duration>January 2024 - Present</Duration>
+              </div>
+              <StyledList>
+                <ListItem>
+                  {"The Wild Oasis"} seeks a custom application to manage its
+                  boutique hotel operations, encompassing cabin bookings, guest
+                  services, and staff management. Designed for internal use, the
+                  application allows hotel employees to efficiently check in
+                  guests and handle cabin allocations. Key functionalities
+                  include user authentication, cabin management, and booking
+                  oversight, with features for adding guest data and managing
+                  payments.
+                </ListItem>
+                <ListItem>
+                  The application also includes a dashboard for monitoring key
+                  metrics such as guest arrivals, sales, and occupancy rates,
+                  providing valuable insights for optimizing operations. With
+                  customizable settings for breakfast prices and booking
+                  parameters, the application streamlines hotel management,
+                  enhancing the guest experience at {"The Wild Oasis."}
+                </ListItem>
+                <ListItem>
+                  For routing, React Router is employed, providing seamless
+                  navigation within the single-page application (SPA). Styling
+                  is achieved using CSS-in-JS, specifically{" "}
+                  <Strong>styled-components</Strong>, offering scoped styling
+                  and easy maintenance. Given the minimal UI state requirements,
+                  Context API with useState is utilized for UI state management,
+                  eliminating the need for Redux.
+                </ListItem>
+                <ListItem>
+                  For remote state management,
+                  <Strong>React Query</Strong> is chosen for its robust features
+                  like caching and automatic re-fetching, ensuring efficient
+                  handling of remote data. Form management is simplified using a
+                  library <Strong>React Hook Form</Strong>, streamlining the
+                  process of handling larger forms with ease. Additionally,
+                  various tools like{" "}
+                  <Strong>
+                    React icons, React hot toast, Recharts, date-fns,
+                  </Strong>{" "}
+                  and <Strong>Supabase</Strong>
+                  are incorporated to enhance functionality and user experience.
+                </ListItem>
+              </StyledList>
+            </ContentDiv>
+          </ProviderItem>
+        </NavLinkProviderBox>
+        <NavLinkProviderBox
+          id="provider"
+          target="_blank"
           to="https://github.com/gowthamck25/QuickSlice"
         >
           <ProviderItem>

@@ -83,7 +83,7 @@ function HeaderNav() {
       <li>
         <HeaderNavStyledNavLink
           target="_blank"
-          to="https://drive.google.com/file/d/1nR0mGe0pmGejZT9xvtkm5NB_yPunUZUn/view?usp=drive_link"
+          to="https://drive.google.com/file/d/1kO26Z5Dfp1ZUltiBBOLBaWqySnok3ez6/view?usp=drive_link"
         >
           Resume
         </HeaderNavStyledNavLink>
