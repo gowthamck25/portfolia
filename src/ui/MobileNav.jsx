@@ -97,7 +97,7 @@ function MobileNav() {
         <HeaderNavStyledNavLink
           onClick={handleClick}
           target="_blank"
-          to="https://drive.google.com/file/d/1nR0mGe0pmGejZT9xvtkm5NB_yPunUZUn/view?usp=drive_link"
+          to="https://drive.google.com/file/d/1p9YRyj2VJ-m2ipxjK4-tXkd2SPtId9L5/view?usp=drive_link"
         >
           Resume
         </HeaderNavStyledNavLink>
