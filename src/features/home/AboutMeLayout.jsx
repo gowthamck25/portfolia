@@ -141,15 +141,19 @@ const SkillTags = styled.div`
 `;
 
 const skills = [
-  { name: "React", src: "/skill-logos/react.png" },
-  { name: "TanStack Query", src: "/skill-logos/react-query.png" },
-  { name: "Redux", src: "/skill-logos/redux.png" },
-  { name: "Styled Components", src: "/skill-logos/styled-components.png" },
+  { name: "React.js", src: "/skill-logos/react.png" },
+  { name: "Next.js", src: "/skill-logos/nextjs.png" },
+  { name: "React Native", src: "/skill-logos/reactnative.png" },
+  { name: "TypeScript", src: "/skill-logos/typescript.png" },
   { name: "JavaScript", src: "/skill-logos/javascript.png" },
+  { name: "Angular", src: "/skill-logos/angular.png" },
+  { name: "Redux", src: "/skill-logos/redux.png" },
+  { name: "TanStack Query", src: "/skill-logos/react-query.png" },
   { name: "AJAX", src: "/skill-logos/ajax.png" },
   { name: "Python", src: "/skill-logos/python.png" },
   { name: "Amazon Web Services", src: "/skill-logos/aws.png" },
   { name: "Google Cloud Platform", src: "/skill-logos/gcp.png" },
+  { name: "Styled Components", src: "/skill-logos/styled-components.png" },
   { name: "Tailwind CSS", src: "/skill-logos/tailwindcss.png" },
   { name: "HTML", src: "/skill-logos/html.png" },
   { name: "CSS", src: "/skill-logos/css.png" },
@@ -167,20 +171,23 @@ function AboutMeLayout() {
 
           <ParaBox>
             <p>
-              👋🏻 Hello, I&apos;m Gowtham, a seasoned Software Engineer with 2
-              years of experience and a strong foundation in React and
-              JavaScript. My expertise extends to cloud computing platforms such
-              as AWS and GCP, where I specialize in crafting scalable and
-              efficient solutions.
+              👋🏻 Hi, I&apos;m Gowtham—a passionate Software Engineer with{" "}
+              <strong>4 years of professional experience</strong> building
+              seamless, engaging digital products. At TMRW House of Brands,
+              I&apos;ve been instrumental in developing a Multi-Tenant D2C
+              ecommerce platform that empowers fashion labels like Bewakoof and
+              Nobero to thrive. My journey is fueled by a love for innovation
+              and a commitment to excellence, as I craft solutions that not only
+              meet but exceed user expectations.
             </p>
 
             <p>
-              With a keen eye for user-centric design and a knack for
-              problem-solving, I thrive on creating robust applications that
-              push boundaries and exceed expectations. Whether it&apos;s
-              architecting seamless user experiences or optimizing backend
-              infrastructure, I am dedicated to delivering high-quality,
-              innovative solutions that drive success.
+              My expertise in <strong>Next.js</strong>,{" "}
+              <strong>React.js</strong>, <strong>React Native</strong>, and{" "}
+              <strong>TypeScript</strong> allows me to engineer features that
+              captivate users and drive business growth. From enhancing mobile
+              app experiences to optimizing performance metrics, I am always
+              eager to push the boundaries of what&apos;s possible.
             </p>
           </ParaBox>
         </AboutBox>
